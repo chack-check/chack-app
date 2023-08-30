@@ -1,0 +1,21 @@
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 340 250">
+    <defs>
+        <linearGradient id="prefix__a" x1="88.52" y1="88.52" x2="25.58" y2="25.58" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00b3ee"/>
+            <stop offset="1" stop-color="#c200af"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="54.82" y1="86.45" x2="29.61" y2="42.79" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6227d8"/>
+            <stop offset="2" stop-opacity="0"/>
+        </linearGradient>
+
+        <!-- Добавление маски -->
+        <mask id="mask">
+            <rect x="10" y="10" width="80" height="80" rx="20" ry="20" fill="white"/>
+        </mask>
+    </defs>
+
+    <!-- Применение маски к элементам path -->
+    <path d="M50 0a50 50 0 1050 50A50 50 0 0050 0zm0 69.15A19.15 19.15 0 1169.15 50 19.15 19.15 0 0150 69.15z" fill="url(#prefix__a)" mask="url(#mask)"/>
+    <path d="M69.14 50.59a50 50 0 01-34.56 47l-.62-.2h-.11A50 50 0 0146.49.12c-17.68 3.41-16.7 45-15.64 49.88.06 24.69 37.49 25.22 38.29.59z" fill="url(#prefix__b)" mask="url(#mask)"/>
+</svg>
